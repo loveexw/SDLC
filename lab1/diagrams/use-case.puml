@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "Пользователь" as U
+rectangle TaskTracker {
+  usecase "Создать задачу" as UC1
+  usecase "Редактировать задачу" as UC2
+  usecase "Удалить задачу" as UC3
+  usecase "Отметить выполнение" as UC4
+  usecase "Отфильтровать список" as UC5
+  usecase "Сохранить / загрузить список" as UC6
+}
+U --> UC1
+U --> UC2
+U --> UC3
+U --> UC4
+U --> UC5
+U --> UC6
+@enduml

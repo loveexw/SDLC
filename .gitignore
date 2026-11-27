@@ -1,0 +1,17 @@
+# Временные файлы Office
+~$*
+*.tmp
+*.bak
+
+# Экспорт и превью диаграмм
+*.png.tmp
+.plantuml/
+
+# Системные файлы
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Настройки редакторов
+.vscode/
+.idea/
