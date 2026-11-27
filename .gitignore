@@ -1,0 +1,47 @@
+# ---- Visual Studio: служебные папки ----
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Oo]bj/
+ipch/
+
+# ---- Пользовательские настройки ----
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- Промежуточные файлы компиляции ----
+*.obj
+*.o
+*.pch
+*.ipch
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.log
+*.exp
+*.lib
+*.exe
+*.dll
+
+# ---- Базы IntelliSense ----
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# ---- Системные файлы ----
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
